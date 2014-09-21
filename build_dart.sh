@@ -28,8 +28,8 @@ if [ $INSTALLED -ne 0 ]; then
     sudo update-alternatives --config python
 fi
 
-VERSION=trunk
-#VERSION=branches/1.2
+#VERSION=trunk
+VERSION=branches/1.5
 BUULD_PATH=`pwd`
 DART_REPO=$BUULD_PATH/dart-repo
 
